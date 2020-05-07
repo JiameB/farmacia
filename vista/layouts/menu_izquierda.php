@@ -19,12 +19,7 @@
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
+        
     </ul>
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
@@ -62,10 +57,18 @@
                with font-awesome or any other icon font library -->
           <li class="nav-header">USUARIO</li>
           <li class="nav-item">
-            <a href="../vista/editar_datos_personales.php" class="nav-link">
+            <a href="editar_datos_personales.php" class="nav-link">
               <i class="nav-icon fas fa-user-cog"></i>
               <p>
                 Datos Personales
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="adm_usuario.php" class="nav-link">
+              <i class="nav-icon fas fa-user"></i>
+              <p>
+                Gestionar Usuarios
               </p>
             </a>
           </li>
